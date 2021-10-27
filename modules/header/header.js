@@ -5,7 +5,7 @@ import LogoImg from "../../assets/logo.png";
 
 const Header = () => {
   return (
-    <header clasName={styles.main}>
+    <header className={styles.main}>
       <main className={styles.content}>
         <Image src={LogoImg} width={50} height={50} alt="Logo" />
         <nav>
